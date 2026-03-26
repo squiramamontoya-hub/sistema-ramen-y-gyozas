@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ramen & Gyozas</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>🍜 Ramen & Gyozas</h1>
+        <p>Sistema de pedidos</p>
+    </header>
+
+    <div class="contenedor">
+        <h2>Bienvenido</h2>
+        <p>Seleccione una opción</p>
+
+        <a href="pedidos.html">
+            <button class="btn">Hacer Pedido</button>
+        </a>
+    </div>
+
+</body>
+</html>

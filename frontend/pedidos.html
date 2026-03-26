@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pedidos</title>
+</head>
+<body>
+
+<h1>Pedidos - Ramen & Gyozas</h1>
+
+<h2>Ramen</h2>
+Cerdo: <input type="number" id="ramenCerdo" value="0"><br>
+Pollo: <input type="number" id="ramenPollo" value="0"><br>
+Vegetariano: <input type="number" id="ramenVeg" value="0"><br>
+
+<h2>Gyozas</h2>
+Normal: <input type="number" id="gyozasNormal" value="0"><br>
+Camarón: <input type="number" id="gyozasCamaron" value="0"><br>
+
+<h2>Adiciones</h2>
+Extra normal: <input type="number" id="extraNormal" value="0"><br>
+Extra camarón: <input type="number" id="extraCamaron" value="0"><br>
+
+<h2>Combos</h2>
+Combo 1: <input type="number" id="combo1" value="0"><br>
+Combo 2: <input type="number" id="combo2" value="0"><br><br>
+
+<button onclick="calcularTotal()">Calcular Total</button>
+<button onclick="registrarPedido()">Registrar Pedido</button>
+
+<h2>Total: $<span id="total">0</span></h2>
+
+<script src="app.js"></script>
+
+</body>
+</html>
+
+
+
+
